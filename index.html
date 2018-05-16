@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Разработка ботов">
+    <meta name="keywords" content="Разработка чат-ботов бизнес-боты создание ботов социальные сети соц сети  бот боты вк телеграм телеграмм telegram telegramm bot bots роботы вайбер вибер viber veber инста инстаграм insta инстограм ">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 month">
+    <meta name="language" content="Russian">
+    <meta name="generator" content="N/A">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="yandex-verification" content="eb337b1a01a9bc3b" />
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Разработка Чат-Ботов</title>
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="main.css">
+    
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter48672518 = new Ya.Metrika({
+                    id:48672518,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/48672518" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</head>
+<body>
+
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 icon_box">
+                <!--<img src="img/bender2.png" class="logo animated fadeInDown" alt="DevLog"/>-->
+                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" height="64.58911924146064" width="286.67999267578125"><defs id="SvgjsDefs1346"></defs><g id="SvgjsG1347" rel="mainfill" name="main_text" xmlns:name="main_text" transform="translate(77.67999982833862,-188.46544251550014)" fill="#000"><path d="M4.32 240L18.66 240C32.78 240 41.19 233.85 41.19 220.29C41.19 206.67 31.89 200.86 18.33 200.86L4.32 200.86ZM13.68 232.64L13.68 208.22L18.16 208.22C27.57 208.22 31.78 212.43 31.78 220.84C31.78 228.54 28.29 232.64 19.27 232.64ZM62.06 240.66C65.72 240.66 70.04 240.17 73.41 239.17L72.03 232.14C68.87 232.69 65.44 233.36 63.39 233.36C58.58 233.36 54.81 232.47 54.87 227.71L74.47 227.71L74.47 224.39C74.47 215.25 70.81 209.05 61.29 209.05C52.15 209.05 45.68 212.98 45.68 225.33C45.68 237.40 52.10 240.66 62.06 240.66ZM55.14 221.78C55.31 217.80 57.36 215.58 60.51 215.58C63.50 215.58 65.11 218.13 65.00 221.78ZM87.92 240L98.88 240L110.62 209.77L100.93 209.77L95.28 226.16L93.57 232.19L92.02 226.16L86.92 209.77L77.01 209.77ZM115.38 240L130.77 240C142.29 240 146.50 235.07 146.50 227.93C146.50 222.56 142.40 219.68 139.74 218.74L139.74 218.63C141.73 217.36 143.67 214.92 143.67 211.65C143.67 204.29 138.69 200.86 129.11 200.86L115.38 200.86ZM124.85 232.64L124.85 223.34L128.95 223.34C134.37 223.34 137.08 224.61 137.08 228.15C137.08 231.31 134.59 232.64 129.61 232.64ZM124.85 216.91L124.85 208.05L127.73 208.05C132.16 208.05 134.37 209.38 134.37 212.70C134.37 216.19 132.32 216.91 128.23 216.91ZM166.04 240.66C175.34 240.66 182.10 235.18 182.10 224.89C182.10 215.03 177.28 209.00 166.54 209.00C156.96 209.00 150.70 215.14 150.70 225.16C150.70 234.63 156.07 240.66 166.04 240.66ZM166.48 233.30C161.56 233.30 160.01 230.15 160.01 224.94C160.01 220.01 161.39 216.30 166.37 216.30C171.47 216.30 172.68 220.01 172.68 224.89C172.68 230.03 171.47 233.30 166.48 233.30ZM201.70 240.61C203.91 240.61 206.84 240.17 209.00 239.56L208.12 232.30C208.12 232.30 203.63 232.91 201.58 232.91C199.09 232.91 198.26 232.75 198.26 230.53L198.26 216.58L207.62 216.58L207.62 209.77L198.26 209.77L198.26 203.57L189.07 203.57L189.07 209.77L184.64 209.77L184.64 216.58L189.07 216.58L189.07 230.59C189.07 240.89 195.88 240.61 201.70 240.61Z" fill="#000" style="fill: rgb(255, 255, 255);"></path></g><g id="SvgjsG1348" rel="mainfill" name="symbol" xmlns:name="symbol_mainfill" transform="translate(-6.378881195470949,-7.176274424629575) scale(0.7973932291586271)" fill="#000"><title>bot3_happy</title><g fill="#000" fill-rule="evenodd"><path d="M33.3832069,61.2316055 C33.4663305,61.1252515 33.7052431,60.8852671 34.0606164,60.6356114 C34.613312,60.2473334 35.2172668,60.0168253 35.8618908,59.9992577 L35.7533604,59.9992696 C36.4066289,60.0169293 37.0106683,60.2470018 37.5592314,60.6337226 C37.910109,60.881081 38.144039,61.1181155 38.2235934,61.221285 L39.4448784,62.8050978 L42.612504,60.3625278 L41.391219,58.778715 C41.0848685,58.3814269 40.5779442,57.8677752 39.8639741,57.3644473 C38.7121463,56.5524427 37.3707855,56.0415318 35.861452,56.0007304 L35.7529217,56.0007423 C34.2523726,56.0416358 32.9148757,56.5521111 31.7612415,57.3625585 C31.0480478,57.8635891 30.5396267,58.374291 30.2316055,58.7683945 L29,60.3441952 L32.1516014,62.8074062 L33.3832069,61.2316055 Z M61.3832069,61.2316055 C61.4663305,61.1252515 61.7052431,60.8852671 62.0606164,60.6356114 C62.613312,60.2473334 63.2172668,60.0168253 63.8618908,59.9992577 L63.7533604,59.9992696 C64.4066289,60.0169293 65.0106683,60.2470018 65.5592314,60.6337226 C65.910109,60.881081 66.144039,61.1181155 66.2235934,61.221285 L67.4448784,62.8050978 L70.612504,60.3625278 L69.391219,58.778715 C69.0848685,58.3814269 68.5779442,57.8677752 67.8639741,57.3644473 C66.7121463,56.5524427 65.3707855,56.0415318 63.861452,56.0007304 L63.7529217,56.0007423 C62.2523726,56.0416358 60.9148757,56.5521111 59.7612415,57.3625585 C59.0480478,57.8635891 58.5396267,58.374291 58.2316055,58.7683945 L57,60.3441952 L60.1516014,62.8074062 L61.3832069,61.2316055 Z" fill="#000" style="fill: rgb(255, 255, 255);"></path><path d="M78.043793,27.6998546 L88.2922771,9.99792746 C88.8457065,9.04200398 90.0692787,8.71571805 91.0252022,9.26914743 C91.9811257,9.82257681 92.3074116,11.0461491 91.7539822,12.0020725 L81.1374158,30.3397781 C90,39.0153006 90,50 90,50 L90,70 C90,70 90,90 50,90 C10,90 10,70 10,70 L10,50 C10,50 10,39.0044239 18.8757506,30.3268977 L8.26908535,12.0020725 C7.71578346,11.0461491 8.04199423,9.82257681 8.99769749,9.26914743 C9.95340076,8.71571805 11.1766911,9.04200398 11.729993,9.99792746 L21.970129,27.6895106 C27.8958591,23.2892727 36.7550811,20 50,20 C63.2552955,20 72.1180196,23.2944286 78.043793,27.6998546 Z M20,60 C20,51.7157288 26.7081139,45 35.0050808,45 L64.9949192,45 C73.2819965,45 80,51.7139073 80,60 C80,68.2842712 73.2918861,75 64.9949192,75 L35.0050808,75 C26.7180035,75 20,68.2860927 20,60 Z" fill="#000" style="fill: rgb(255, 255, 255);"></path></g></g></svg>
+
+            </div>
+            <div class="col-lg-5 ml-auto">
+                <nav>
+                    <ul class="menu d-flex justify-content-center animated fadeInDown">
+                        <li class="menu__item">
+                            <a href="#">Меню</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#features">Опции</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#touch">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div  class="offer animated fadeInLeft"  itemscope itemtype="http://schema.org/SoftwareApplication">
+                    <h1 class="offer__title"  itemprop="description">
+                       Разработка чат-ботов
+                    </h1>
+                    <div class="offer__intro"  >
+                        Мы создаём роботов, которые будут отвечать на сообщения ваших клиентов в соц. сетях и мессенджерах
+                    </div>
+                        <p class="offer__text" itemprop="description">
+                        Чат-бот для бизнеса - это современно, удобно, практично, не дорого.
+                        Это повышает количество продаж, позволяет держать в курсе событий клиентов. Обрабатывать множество обращений и проводить аналитику.
+                        Мы создаем ботов для таких соц.сетей: <mata itemprop="applicationSubCategory">Вконтакте, Telegram, Instagram, Whatsapp, Facebook, Viber</mata>
+                        </p>
+                        <ul class="icons d-flex">
+                            <li class="icons__item">
+                                <a href="#">
+                                    <i class="fa fa-vk"></i>
+                                </a>
+                            </li>
+                             <li class="icons__item">
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>    
+                            <li class="icons__item">
+                                <a href="#">
+                                    <i class="fa fa-telegram"></i>
+                                </a>
+                            </li>
+                            <li class="icons__item">
+                                <a href="#">
+                                    <i class="fa fa-whatsapp"></i>
+                                </a>
+                            </li>
+                            <li class="icons__item">
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                           
+
+                        </ul>
+
+                </div>
+            </div>
+            <div class="col-lg-5 ml-auto">
+                <img src="img/iphoneinst.png" alt="chat bot" class="iphone animated fadeInRight">
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="features" class="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+               <div class="title">
+
+                <h2 class="title__main">
+                    Возможности Чат-бота
+                </h2>
+                <p class="title__text">
+                    Мы можем разработать
+                </p>
+             </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+              <div class="featured d-flex">
+                <i class="	fa fa-hand-paper-o featured__icon"></i>
+                <div class="featured__block">
+                    <h3 class="featured__title">Приветствие</h3>
+                    <p class="featured__text">Торжественное приветствие, которое порадует пользователя</p>
+                </div>
+
+             </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="featured d-flex">
+                    <i class="fa fa-tablet featured__icon"></i>
+                    <div class="featured__block">
+                        <h3 class="featured__title">Интерфейс</h3>
+                        <p class="featured__text">В виде уникальных кнопок позволяющих в одно нажитие проводить интерактивные дествия</p>
+                    </div>
+
+                </div>
+            </div>
+                   <div class="col-lg-4">
+                <div class="featured d-flex">
+                    <i class="fa fa-edit featured__icon"></i>
+                    <div class="featured__block">
+                        <h3 class="featured__title">Запись</h3>
+                        <p class="featured__text">Может записать клиента на определенную дату и сообщить вам</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="featured d-flex">
+                    <i class="fa fa-database featured__icon"></i>
+                    <div class="featured__block">
+                        <h3 class="featured__title">Логирование</h3>
+                        <p class="featured__text">Сохранение переписки и возможность прочитать ее в любое время</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="featured d-flex">
+                    <i class="fa fa-address-book featured__icon"></i>
+                    <div class="featured__block">
+                        <h3 class="featured__title">Контакты</h3>
+                        <p class="featured__text">Взять контактные данные клиента</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="featured d-flex">
+                    <i class="fa fa-envelope featured__icon"></i>
+                    <div class="featured__block">
+                        <h3 class="featured__title">Рассылка</h3>
+                        <p class="featured__text">Выполнять рассылку подписикам</p>
+                    </div>
+
+                </div>
+            </div>
+                 
+            <div class="col-lg-4">
+                <div class="featured d-flex">
+                    <i class="fa fa-map-marker featured__icon"></i>
+                    <div class="featured__block">
+                        <h3 class="featured__title">Геолокация</h3>
+                        <p class="featured__text">Бот отправляет метку на карте местонахождения вашей компании, которые легко открыть в навигаторе</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="featured d-flex">
+                    <i class="fa fa-comments featured__icon"></i>
+                    <div class="featured__block">
+                        <h3 class="featured__title">Беседовать</h3>
+                        <p class="featured__text">Может вести предопределенную беседу или отвечать используя искуственный интелект</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="featured d-flex">
+                    <i class="fa fa-rocket featured__icon"></i>
+                    <div class="featured__block">
+                        <h3 class="featured__title">Нет границ</h3>
+                        <p class="featured__text">Мы готовы рассмотерть ваши предложения по расширению функций</p>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+</section>
+
+<section id="touch" class="touch">
+	
+             <script id="bx24_form_inline" data-skip-moving="true">
+                   (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+                       (w[b].forms=w[b].forms||[]).push(arguments[0])};
+                       if(w[b]['forms']) return;
+                       var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+                       var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+                   })(window,document,'https://devbot.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
+
+                   b24form({"id":"2","lang":"ru","sec":"0aml8c","type":"inline"});
+               </script>
+		
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="credits">
+                    DevBot &reg Краснодар
+                    Lebedinsky Denis
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script data-skip-moving="true">
+    (function(w,d,u){
+        var s=d.createElement('script');s.async=1;s.src=u+'?'+(Date.now()/60000|0);
+        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://cdn.bitrix24.ru/b6365611/crm/site_button/loader_2_gfcqfg.js');
+</script>
+</body>
+</html>
